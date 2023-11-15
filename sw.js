@@ -5,7 +5,7 @@ const DYNAMI_CACHE = 'dynami-v0';
 const INMUTA_CACHE = 'inmuta-v0';
 
 const APP_SHELL = [
-    '/',
+    // '/',
     '/index.html',
     '/css/style.css',
     '/img/favicon.ico',
