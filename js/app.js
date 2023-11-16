@@ -1,5 +1,5 @@
 var url = window.location.href;
-var swLoc = (url.includes('localhost') ? '/sw.js' : 'devtalles-twittor/sw.js');
+var swLoc = (url.includes('localhost') ? '/sw.js' : '/devtalles-twittor/sw.js');
 
 if (navigator.serviceWorker) navigator.serviceWorker.register(swLoc);
 
