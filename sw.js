@@ -38,7 +38,7 @@ self.addEventListener('activate', e => {
     const response = caches.keys().then(keys => {
         keys.forEach(key => {
             if (key !== STATIC_CACHE && key.includes('static')) caches.delete(key);
-            // if(key !== DYNAMI_CACHE && key.includes('dynami')) caches.delete(key);
+            if (key !== DYNAMI_CACHE && key.includes('dynami')) caches.delete(key);
         });
 
     });
